@@ -1,3 +1,4 @@
 baseurl = "https://tranquil-depths-5549.herokuapp.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "hyde-x"
