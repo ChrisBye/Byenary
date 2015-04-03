@@ -1,4 +1,39 @@
-baseurl = "https://tranquil-depths-5549.herokuapp.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Byenary"
+
+#web things
+baseurl = "https://tranquil-depths-5549.herokuapp.com/"
+canonifyurls = true
+
+#hyde-x things #https://github.com/chrisbye/hyde-x
 theme = "hyde-x"
+MetaDataFormat = "toml"
+paginate = 10
+
+[author]
+    name = "Chris Bye"
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:title/"
+
+[params]    
+    defaultDescription = "Chris was lazy and didn't write a description :("    
+
+    theme = "theme-base-0d"
+
+    highlight = "sunburst"
+
+    tagline = "Thinking in Byenary"
+
+    # Metadata used to drive integrations.
+    #googleAuthorship = "Your Google+ profile ID"
+    #googleAnalytics = "Your Google Analytics tracking code"
+    #gravatarHash = "MD5 hash of your Gravatar email address"
+
+    # Sidebar social links, avoid enabling too many of these if possible.
+    # These should be full URLs.
+    github = "https://github.com/ChrisBye"
+
+
+#DELETE ME: temporary until I have a real first-post
+builddrafts = true
