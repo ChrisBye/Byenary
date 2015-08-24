@@ -64,7 +64,7 @@ Now we'll log in to heroku, initialize a heroku app from a new command line sess
 
 
 <code class="ps">heroku login</code><br/>
-<code class="ps">heroku create --buildpack https://github.com/roperzh/heroku-buildpack-hugo.git</code><br/>
+<code class="ps">heroku create \-\-buildpack https://github.com/roperzh/heroku-buildpack-hugo.git</code><br/>
 <code class="ps">git push heroku master</code><br/>
 <code class="ps">heroku open</code><br/>
 
