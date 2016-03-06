@@ -4,6 +4,7 @@ title = "Byenary"
 #web things
 baseurl = "http://byenary.com"
 canonifyurls = true
+disqusShortname = "Byenary"
 
 #hyde-x things #https://github.com/chrisbye/hyde-x
 theme = "hyde-x"
@@ -24,7 +25,6 @@ paginate = 10
     highlight = "sunburst"
 
     tagline = "Thinking in Byenary"
-
     # Metadata used to drive integrations.
     #googleAuthorship = "Your Google+ profile ID"
     #googleAnalytics = "Your Google Analytics tracking code"
