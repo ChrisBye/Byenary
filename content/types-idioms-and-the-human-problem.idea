@@ -1,0 +1,11 @@
+Discuss comments/substance of :
+
+https://visualstudiomagazine.com/blogs/tool-tracker/2015/12/special-case-pattern.aspx
+
+re: 
+- merits of typed/untyped
+- ease of/temptation of abusing type systems
+- language/domain idioms, and the importance of the principle of least surprise
+- performance implications of .NET exceptions (I don't actually know enough on this topic)
+- effective persuasion techniques/counterexamples drawn from the comment stream
+
